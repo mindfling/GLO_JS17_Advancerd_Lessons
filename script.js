@@ -49,3 +49,27 @@ switch (lang) {
         console.log('other language');
 }
 
+
+//ca
+const week = {
+    'en': [ 
+        'Monday', 
+        'Tuesday', 
+        'Wednesday', 
+        'Thursday', 
+        'Friday', 
+        'Saturday', 
+        'Sunday' 
+    ],
+    'ru': [
+        'понедельник',
+        'вторник',
+        'среда',
+        'четверг',
+        'пятница',
+        'суббота',
+        'воскресенье'
+]};
+
+console.log(week[lang]);
+
