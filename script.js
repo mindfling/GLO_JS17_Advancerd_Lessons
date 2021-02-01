@@ -73,3 +73,11 @@ const week = {
 
 console.log(week[lang]);
 
+
+
+//2
+// const namePerson = 'Артем';
+const namePerson = 'Максим';
+
+console.log(namePerson === 'Артем' ? 'директор' : (namePerson === 'Максим' ? 'преподаватель' : 'студент') );
+
