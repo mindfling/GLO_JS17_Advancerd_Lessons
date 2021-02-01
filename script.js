@@ -13,7 +13,8 @@ const englishWeek = [
     'Thursday', 
     'Friday', 
     'Saturday', 
-    'Sunday'];
+    'Sunday'
+];
 
 const russianWeek = [
     'понедельник',
@@ -24,4 +25,14 @@ const russianWeek = [
     'суббота',
     'воскресенье'
 ];
+
+
+//a - решаем через if
+if (lang === 'ru') {
+    console.log(russianWeek);
+} else if (lang === 'en') {
+    console.log(englishWeek);
+} else {
+    console.log('other language');
+}
 
