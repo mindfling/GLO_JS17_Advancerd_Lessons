@@ -36,3 +36,16 @@ if (lang === 'ru') {
     console.log('other language');
 }
 
+
+//b - решили через switch case
+switch (lang) {
+    case 'ru':
+        console.log(russianWeek);
+        break;
+    case 'en':
+        console.log(englishWeek);
+        break;
+    default:
+        console.log('other language');
+}
+
